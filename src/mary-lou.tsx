@@ -10,12 +10,14 @@ function MaryLou(props: OwnProps) {
     const currentCoffeeFlavor = getCurrentCoffeeFlavor();
 
     return (
-        <div className="flex flex-col items-center p-1 drop-shadow-lg bg-zblue rounded-md font-DM-Serif text-2xl text-ztan">
-            <div className="flex text-3xl">
+        <div className="flex flex-col items-center p-1 drop-shadow-lg bg-zblue rounded-md font-DM-Serif font-semibold text-2xl text-ztan">
+            <div className="flex gap-3 text-3xl">
                 <span className="text-pink-400">
                     <BiCoffeeTogo />
                 </span>
-                Marylou's FotM
+                <span>
+                    Marylou's FotM
+                </span>
 
             </div>
             <div className="text-white">

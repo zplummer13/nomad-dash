@@ -19,13 +19,15 @@ function Holiday(props: OwnProps) {
     console.log(holidays)
 
     return (
-        <div className="flex flex-col items-center p-1 drop-shadow-lg bg-zpurple rounded-md font-Sriracha text-2xl text-zgold">
+        <div className="flex flex-col items-center p-1 drop-shadow-lg bg-zorange rounded-md font-Sriracha text-2xl text-zpurple">
             <>
-                <div className="flex text-3xl">
-                    <span className="text-yellow-500">
+                <div className="flex gap-3 text-3xl">
+                    <span className="text-zblue">
                         <IoMdCalendar />
                     </span>
-                    Holidays
+                    <span>
+                        Holidays
+                    </span>
 
                 </div>
                 {typeof holidays != "boolean" &&
@@ -36,7 +38,7 @@ function Holiday(props: OwnProps) {
                     </>
                 }
                 {!holidays &&
-                    <div className="text-neutral-400">
+                    <div className="text-neutral-200">
                         No holidays today
                     </div>
                 }

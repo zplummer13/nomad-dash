@@ -15,7 +15,8 @@ module.exports = {
             fontFamily: {
                 'DM-Serif': ['DM Serif', 'serif'],
                 'Fascinate': ['Fascinate Inline', 'san serif'],
-                'Sriracha': ['Sriracha']
+                'Sriracha': ['Sriracha'],
+                'Chango': ['Chango']
             },
             keyframes: {
                 'wiggle': {

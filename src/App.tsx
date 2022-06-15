@@ -2,6 +2,7 @@ import './App.css';
 import Header from './header';
 import Holiday from './holiday';
 import MaryLou from './mary-lou';
+import Moon from './moon';
 import Weather from './weather';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
                 <Header></Header>
                 <MaryLou></MaryLou>
                 {/* <Weather></Weather> */}
+                <Moon></Moon>
                 <Holiday></Holiday>
             </div>
         </div>
