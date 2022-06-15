@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+import Holiday from './holiday';
+import MaryLou from './mary-lou';
+import Weather from './weather';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={`w-screen h-screen bg-fixed bg-cover bg-center bg-[url('./images/sun.jpg')]`} >
+            <div className="flex flex-col justify-around p-4 pt-8 space-y-4 animate-slide-down">
+                <Header></Header>
+                <MaryLou></MaryLou>
+                {/* <Weather></Weather> */}
+                <Holiday></Holiday>
+            </div>
+        </div>
+    );
 }
 
 export default App;
