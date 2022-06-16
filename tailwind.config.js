@@ -16,7 +16,9 @@ module.exports = {
                 'DM-Serif': ['DM Serif', 'serif'],
                 'Fascinate': ['Fascinate Inline', 'san serif'],
                 'Sriracha': ['Sriracha'],
-                'Chango': ['Chango']
+                'Chango': ['Chango'],
+                'Rampart-One': ['Rampart One'],
+                'Shrikhand': ['Shrikhand']
             },
             keyframes: {
                 'wiggle': {

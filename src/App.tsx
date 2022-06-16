@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './header';
 import Holiday from './holiday';
 import MaryLou from './mary-lou';
@@ -10,8 +9,8 @@ function App() {
         <div className={`w-screen h-screen bg-fixed bg-cover bg-center bg-[url('./images/sun.jpg')]`} >
             <div className="flex flex-col justify-around p-4 pt-8 space-y-4 animate-slide-down">
                 <Header></Header>
+                <Weather></Weather>
                 <MaryLou></MaryLou>
-                {/* <Weather></Weather> */}
                 <Moon></Moon>
                 <Holiday></Holiday>
             </div>
