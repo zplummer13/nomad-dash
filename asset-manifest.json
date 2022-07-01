@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nomad-dash/static/css/main.e8ad597c.css",
-    "main.js": "/nomad-dash/static/js/main.ead07a1f.js",
+    "main.js": "/nomad-dash/static/js/main.f00132a6.js",
     "static/js/787.b2287e62.chunk.js": "/nomad-dash/static/js/787.b2287e62.chunk.js",
     "static/media/sun.jpg": "/nomad-dash/static/media/sun.7a3708ddfd3c6978cfd1.jpg",
     "index.html": "/nomad-dash/index.html",
     "main.e8ad597c.css.map": "/nomad-dash/static/css/main.e8ad597c.css.map",
-    "main.ead07a1f.js.map": "/nomad-dash/static/js/main.ead07a1f.js.map",
+    "main.f00132a6.js.map": "/nomad-dash/static/js/main.f00132a6.js.map",
     "787.b2287e62.chunk.js.map": "/nomad-dash/static/js/787.b2287e62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ad597c.css",
-    "static/js/main.ead07a1f.js"
+    "static/js/main.f00132a6.js"
   ]
 }
