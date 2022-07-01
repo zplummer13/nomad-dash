@@ -13,6 +13,8 @@ function Holiday(props: OwnProps) {
     hd.setHoliday("03-27", "ZFD's Birthday")
     hd.setHoliday("05-13", "ZWP's Birthday")
     hd.setHoliday("09-15", "Zurg Adoption Day")
+    hd.setHoliday("07-01", "July, July!")
+    hd.setHoliday("2022-07-03", "Cornament")
 
     let holidays = hd.isHoliday(new Date())
 
