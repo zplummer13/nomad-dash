@@ -12,6 +12,7 @@
         "@types/react": "^18.0.12",
         "@types/react-dom": "^18.0.5",
         "date-holidays": "^3.16.1",
+        "dns-packet": ">=5.4.0",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-icons": "^4.4.0",
@@ -46,6 +47,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.7",
+        "dns-packet": ">=5.4.0",
         "gh-pages": "^4.0.0",
         "postcss": "^8.4.14",
         "react-scripts": "5.0.1",
